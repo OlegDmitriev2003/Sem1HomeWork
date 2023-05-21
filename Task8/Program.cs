@@ -8,6 +8,6 @@ int Num = int.Parse(Console.ReadLine()!);
 while (Num >= i)
 {
     if (i % 2 == 0)
-        Console.Write(i);
+        Console.WriteLine(i);
     i++;
 }
